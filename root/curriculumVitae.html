@@ -5,8 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/css.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.1/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="styles.css">
+
     <title>Curriculum Vitae</title>
 </head>
 
@@ -20,19 +21,19 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="/root/index.html">Home</a>
+                        <a class="nav-link active" aria-current="page" href="../root/index.html">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/root/curriculumVitae.html">Curriculum Vitae</a>
+                        <a class="nav-link" href="../root/curriculumVitae.html">Curriculum Vitae</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/root/ervaring.html">Ervaring</a>
+                        <a class="nav-link" href="../root/ervaring.html">Ervaring</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/root/interesses.html">Interesses</a>
+                        <a class="nav-link" href="../root/interesses.html">Interesses</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/root/contact.html">Contact</a>
+                        <a class="nav-link" href="../root/contact.html">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -59,64 +60,66 @@
     </div>
     <p> </p>
     <!-- Start van CV -->
-    <table class="table table-dark">
-        <thead>
-            <tr>
-                <th scope="col">Werkervaring</th>
-                <th scope="col">Waar?</th>
-                <th scope="col">Wat?</th>
-                <th scope="col">Wanneer?</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <th scope="row">1</th>
-                <td>BS De Letterberg</td>
-                <td>Leerkracht</td>
-                <td>2017-heden</td>
-            </tr>
-            <tr>
-                <th scope="row">2</th>
-                <td>Academie der Beeldende Kunsten Mol</td>
-                <td>ICT-coordinator</td>
-                <td>2018-2020</td>
-            </tr>
-            <tr>
-                <th scope="row">3</th>
-                <td>Academie der Audiovisuele Kunsten Mol</td>
-                <td>ICT-coordinator</td>
-                <td>2019-2020</td>
-            </tr>
+    <div class="table-responsive">
+        <table class="table table-dark">
             <thead>
                 <tr>
-                    <th scope="col">Talen</th>
-                    <th scope="col">Welke?</th>
-                    <th scope="col">Kennis</th>
-                    <th scope="col">Bijzonderheden</th>
+                    <th scope="col">Werkervaring</th>
+                    <th scope="col">Waar?</th>
+                    <th scope="col">Wat?</th>
+                    <th scope="col">Wanneer?</th>
                 </tr>
             </thead>
             <tbody>
                 <tr>
                     <th scope="row">1</th>
-                    <td>Nederlands</td>
-                    <td>Moedertaal</td>
-                    <td>/</td>
+                    <td>BS De Letterberg</td>
+                    <td>Leerkracht</td>
+                    <td>2017-heden</td>
                 </tr>
                 <tr>
                     <th scope="row">2</th>
-                    <td>Engels</td>
-                    <td>Native Speaker niveau</td>
-                    <td>3 maanden Erasmus Ierland</td>
+                    <td>Academie der Beeldende Kunsten Mol</td>
+                    <td>ICT-coordinator</td>
+                    <td>2018-2020</td>
                 </tr>
                 <tr>
                     <th scope="row">3</th>
-                    <td>Frans</td>
-                    <td>Voldoende</td>
-                    <td>/</td>
+                    <td>Academie der Audiovisuele Kunsten Mol</td>
+                    <td>ICT-coordinator</td>
+                    <td>2019-2020</td>
                 </tr>
+                <thead>
+                    <tr>
+                        <th scope="col">Talen</th>
+                        <th scope="col">Welke?</th>
+                        <th scope="col">Kennis</th>
+                        <th scope="col">Bijzonderheden</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">1</th>
+                        <td>Nederlands</td>
+                        <td>Moedertaal</td>
+                        <td>/</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">2</th>
+                        <td>Engels</td>
+                        <td>Native Speaker niveau</td>
+                        <td>3 maanden Erasmus Ierland</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">3</th>
+                        <td>Frans</td>
+                        <td>Voldoende</td>
+                        <td>/</td>
+                    </tr>
 
-            </tbody>
-    </table>
+                </tbody>
+        </table>
+    </div>
 
     <!--Start lijst opleidingen-->
     <div class="list-group">
@@ -132,24 +135,102 @@
     </div>
     <!-- Einde Opleidingen -->
     <!-- Start Carousel -->
-    <div class="col-md-12 text-center">
-        <p> </p>
-        <p class="lead">Skills</p>
-    </div>
-    <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img src="/root/img/htmlFoto.jpeg" class="d-block w-100" alt="...">
+    <div class="container-fluid mb-3 mt-3">
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5" aria-label="Slide 6"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="6" aria-label="Slide 7"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="7" aria-label="Slide 8"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="8" aria-label="Slide 9"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="9" aria-label="Slide 10"></button>
             </div>
-            <div class="carousel-item">
-                <img src="/root/img/htmlFoto2.jpeg" class="d-block w-100" alt="...">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="../root/img/htmlFoto.jpeg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Skills</h5>
+                        <p>HTML</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="../root/img/htmlFoto2.jpeg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Skills</h5>
+                        <p>HTML</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="../root/img/htmlFoto3.jpeg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Skills</h5>
+                        <p>Javascript</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="../root/img/Javascript1.jpeg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Skills</h5>
+                        <p>Javascript</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="../root/img/C1.jpeg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Skills</h5>
+                        <p>C</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="../root/img/C2.jpeg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Skills</h5>
+                        <p>C in Unity</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="../root/img/Communication.jpeg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Skills</h5>
+                        <p>Communicatief</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="../root/img/Databases1.jpeg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Skills</h5>
+                        <p>Database Management</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="../root/img/Databases2.jpeg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Skills</h5>
+                        <p>Database Management</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="../root/img/ICTScholen.jpeg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Skills</h5>
+                        <p>ICT toepassingen voor onderwijs</p>
+                    </div>
+                </div>
             </div>
-            <div class="carousel-item">
-                <img src="/root/img/htmlFoto3.jpeg" class="d-block w-100" alt="...">
-            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Vorige</span>
+  </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Volgende</span>
+  </button>
         </div>
     </div>
-    <p> </p>
     <!-- Einde van CV -->
     <!-- Start van Footer -->
     <div class=" ">
@@ -176,19 +257,19 @@
 
                             <ul class="list-unstyled mb-0 ">
                                 <li>
-                                    <a href="#! " class="text-white ">Home</a>
+                                    <a href="../root/index.html" class="text-white ">Home</a>
                                 </li>
                                 <li>
-                                    <a href="#! " class="text-white ">Curriculum Vitae</a>
+                                    <a href="../root/curriculumVitae.html" class="text-white ">Curriculum Vitae</a>
                                 </li>
                                 <li>
-                                    <a href="#! " class="text-white ">Interesses</a>
+                                    <a href="../root/interesses.html" class="text-white ">Interesses</a>
                                 </li>
                                 <li>
-                                    <a href="#! " class="text-white ">Ervaring</a>
+                                    <a href="../root/ervaring.html" class="text-white ">Ervaring</a>
                                 </li>
                                 <li>
-                                    <a href="#! " class="text-white ">Contact</a>
+                                    <a href="../root/contact.html" class="text-white ">Contact</a>
                                 </li>
                             </ul>
                         </div>
@@ -265,6 +346,6 @@
   </footer>
   
 </div>
-<script src="js/bootstrap.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html>
